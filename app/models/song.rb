@@ -6,6 +6,6 @@ class Song < ActiveRecord::Base
   end
 
   def song_name
-    self.song.name
+    self.name
   end
 end
